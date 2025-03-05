@@ -109,7 +109,6 @@ Swagger facilita la prueba y exploración de los endpoints sin necesidad de util
   - `DELETE /api/alquileres/{id}`: Eliminar un alquiler.
 
 
-
 ---
 
 Este proyecto proporciona una solución completa para la gestión de alquileres de vehículos, permitiendo la administración eficiente de clientes, vehículos, sedes y alquileres. La API REST está documentada con Swagger, facilitando su uso e integración. Se espera que sirva como referencia tanto para el desarrollo como para futuras mejoras del sistema.

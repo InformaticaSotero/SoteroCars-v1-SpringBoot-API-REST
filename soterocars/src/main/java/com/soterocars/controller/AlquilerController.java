@@ -92,22 +92,5 @@ public class AlquilerController {
         alquilerService.eliminarAlquiler(id);
         return ResponseEntity.noContent().build();
     }
-
-    @Operation(summary = "Listar todos los clientes disponibles para alquiler")
-    @GetMapping("/clientes")
-    public ResponseEntity<List<Cliente>> listarClientes() {
-        return ResponseEntity.ok(clienteService.listarClientes());
-    }
-
-    @Operation(summary = "Listar todas las sedes disponibles para alquiler")
-    @GetMapping("/sedes")
-    public ResponseEntity<List<Sede>> listarSedes() {
-        return ResponseEntity.ok(sedeService.listarSedes());
-    }
-
-    @Operation(summary = "Listar todos los vehículos disponibles para alquiler")
-    @GetMapping("/vehiculos")
-    public ResponseEntity<List<Vehiculo>> listarVehiculosDisponibles() {
-        return ResponseEntity.ok(vehiculoService.listarVehiculosDisponibles());
-    }
+  }
 }
