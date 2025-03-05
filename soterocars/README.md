@@ -86,6 +86,8 @@ Swagger facilita la prueba y exploración de los endpoints sin necesidad de util
   - `GET /api/vehiculos/{id}`: Obtener detalles de un vehículo.
   - `PUT /api/vehiculos/{id}`: Actualizar un vehículo.
   - `DELETE /api/vehiculos/{id}`: Eliminar un vehículo.
+  - `GET /api/vehiculos/marcas`: Obtener las marcas disponibles de vehículos.
+  - `GET /api/vehiculos/disponibles`: Listar los vehículos disponibles con filtros opcionales.
 
 - **SedeController:**  
   - `GET /api/sedes`: Listar todas las sedes.
